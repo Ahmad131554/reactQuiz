@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# react-quiz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**react-quiz** is a React-based quiz application that provides an interactive and engaging experience. It fetches questions from a local JSON server, tracks user progress, and provides feedback on correct or incorrect answers.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🧭 Table of Contents
 
-### `npm start`
+- [About](#about)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📌 About
 
-### `npm test`
+**react-quiz** allows users to:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Answer multiple-choice quiz questions.
+- Track progress and score in real-time.
+- Receive feedback on correct and incorrect answers.
+- View a final score after completing the quiz.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🌟 Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Question Management**: Fetches questions from a local JSON server.
+- **Progress Tracking**: Displays current question number, score, and progress.
+- **Feedback System**: Provides immediate feedback on the selected answers.
+- **Final Score**: Displays a final score screen with percentage after quiz completion.
+- **Loading & Error States**: Manages loading and error states for fetching quiz data.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ⚙️ Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Frontend**: React, React Router, React useReducer
+- **Styling**: CSS Modules
+- **Data Fetching**: JSON Server (mock backend)
+- **Testing Libraries**: React Testing Library (optional for testing components)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+Ensure you have the following installed:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Node.js
+- npm or yarn
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Installation
 
-### Code Splitting
+```bash
+git clone https://github.com/yourusername/react-quiz.git
+cd react-quiz
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Running the Development Server
 
-### Analyzing the Bundle Size
+```bash
+npm run start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This command starts the development server. Open your browser and navigate to http://localhost:3000 to view the application.
 
-### Making a Progressive Web App
+### Running the Mock Backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm run server
+```
 
-### Advanced Configuration
+This command starts the mock backend using JSON Server. The backend will be available at http://localhost:5000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📄 License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT LICENSE](./LICENSE).
